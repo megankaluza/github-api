@@ -10,7 +10,9 @@ $(document).ready(function(){
     $.get('https://api.github.com/users/' + name + '?access_token=' + apiKey).then(function(response){
       console.log(response);
 
-        $("#output-name").text("Welcome " + response.name + "!" + response.public_repos);
+        $("#output-name").text("Welcome " + response.name + "!");
+        $("#info").append("<img src=" + response.avatar_url + ">");
+
     }).fail(function(error){
     });
 
