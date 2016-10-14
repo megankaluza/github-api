@@ -1,21 +1,17 @@
-// var apiKey = require('./../.env').apiKey;
-//
-//
-// exports.getRepos = function(){
-//   $.get('https://api.github.com/users/daneden?access_token=' + apiKey).then(function(response){
-//     console.log(response);
-//   }).fail(function(error){
-//     console.log(error.responseJSON.message);
-//   });
-// };
+var apiKey = require('./../.env').apiKey;
 
-
-Template = function(name) {
+Git = function(name) {
   this.name = name
 }
 
-Template.prototype.getUsername = function () {
-  return this.name;
+Git.prototype.getUsername = function(name) {
+  // $.get('https://api.github.com/users/' + name + '?access_token=' + apiKey).then(function(response){
+  //   $("#avatar").empty();
+  //   console.log(response);
+  //     $("#output-name").text(response.name);
+  //     $("#avatar").append("<img src=" + response.avatar_url + ">");
+  // }).fail(function(error){
+  // });
 };
 
-exports.templateModule = Template;
+exports.gitModule = Git;

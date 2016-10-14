@@ -5,7 +5,7 @@ $purple: #7552F2;
 
 body {
   width: 100%;
-  background-color: $purple;
+  background-color: white;
 }
     .jumbotron {
       background-color: $green;
@@ -18,6 +18,35 @@ body {
     }
   }
 
-  #output-name {
-    font-size: 3em;
+h1 {
+  font-family: 'Passion One', cursive;
+  font-variant: small-caps;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40%;
+}
+
+.form-group {
+  float: right;
+}
+
+#output-name {
+  font-size: 2.5em;
+  font-family: 'Passion One', cursive;
+  font-variant: small-caps;
+}
+
+#avatar {
+  margin: 5% 10%;
+  img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px $black;
+    width: 300px;
   }
+}
+
+#repos {
+  padding: 40px 80px;
+}
