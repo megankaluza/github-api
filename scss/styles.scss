@@ -1,9 +1,21 @@
-.jumbotron {
-  background-color: #BAFF8C;
-  border: 1px solid black;
-  padding: 40px 80px;
-  h1 {
-    color: white;
-    text-align: center;
+$green: #BAFF8C;
+$yellow: #fffffe;
+$black: #000;
+
+body {
+  width: 100%;
+  background-color: $yellow;
+    .jumbotron {
+      background-color: $green;
+      border: 1px solid black;
+      padding: 40px 80px;
+    h1 {
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px black;
+    }
+    div.black {
+      color: #000;
+    }
   }
 }
