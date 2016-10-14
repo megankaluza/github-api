@@ -9,12 +9,19 @@ $(document).ready(function(){
 
     $.get('https://api.github.com/users/' + name + '?access_token=' + apiKey).then(function(response){
       console.log(response);
-
         $("#output-name").text("Welcome " + response.name + "!");
-        $("#info").append("<img src=" + response.avatar_url + ">");
-
+        $("#avatar").append("<img src=" + response.avatar_url + ">");
     }).fail(function(error){
     });
+
+    $.get('https://api.github.com/users/' + name + '/repos?visibility=public&access_token=' + apiKey).then(function(response){
+      console.log(response);
+    for (i = 0; i < response.length; i++) {
+      $("repos").append("<a href=" + response[i].html_url + ">");
+};
+    console.log(response);
+  }).fail(function(error){
+  });
 
   });
 });
