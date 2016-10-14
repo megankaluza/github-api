@@ -15,7 +15,7 @@ Template = function(name) {
 }
 
 Template.prototype.getUsername = function () {
-  return this.name
+  return this.name;
 };
 
 exports.templateModule = Template;

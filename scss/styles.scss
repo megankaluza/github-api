@@ -1,12 +1,12 @@
 $green: #BAFF8C;
-$yellow: #fffffe;
 $black: #000;
+$purple: #7552F2;
+
 
 body {
   width: 100%;
-  background-color: $yellow;
+  background-color: $purple;
 }
-
     .jumbotron {
       background-color: $green;
       border: 1px solid black;
@@ -16,4 +16,8 @@ body {
       text-align: center;
       text-shadow: 2px 2px $black;
     }
+  }
+
+  #output-name {
+    font-size: 3em;
   }
