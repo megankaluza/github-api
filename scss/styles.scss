@@ -1,22 +1,23 @@
 $green: #BAFF8C;
-$black: #000;
 $purple: #7552F2;
-
+$black: #000;
+$white: #fff;
 
 body {
   width: 100%;
-  background-color: white;
+  background-color: $white;
 }
-    .jumbotron {
-      background-color: $green;
-      border: 1px solid black;
-      padding: 40px 80px;
+
+.jumbotron {
+  background-color: $green;
+  border: 1px solid black;
+  padding: 40px 80px;
     h1 {
       color: white;
       text-align: center;
       text-shadow: 2px 2px $black;
-    }
   }
+}
 
 h1 {
   font-family: 'Passion One', cursive;
@@ -32,12 +33,6 @@ footer {
   float: right;
 }
 
-#output-name {
-  font-size: 2.5em;
-  font-family: 'Passion One', cursive;
-  font-variant: small-caps;
-}
-
 #avatar {
   margin: 5% 30%;
   img {
@@ -45,6 +40,12 @@ footer {
     box-shadow: 5px 5px 10px $black;
     width: 300px;
   }
+}
+
+#output-name {
+  font-size: 2.5em;
+  font-family: 'Passion One', cursive;
+  font-variant: small-caps;
 }
 
 #repos {
