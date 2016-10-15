@@ -27,9 +27,6 @@
     "type": "git",
     "url": ""
   },
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "description": "#### _GitHub API: Solo JavaScript Project for Epicodus_"
 }
