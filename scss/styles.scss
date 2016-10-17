@@ -2,6 +2,7 @@ $green: #BAFF8C;
 $purple: #7552F2;
 $black: #000;
 $white: #fff;
+$gray: #e5e1de;
 
 body {
   width: 100%;
@@ -31,6 +32,14 @@ footer {
 
 .form-group {
   float: right;
+}
+
+.info {
+  background-color: $gray;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  padding: 5%;
+  text-align: center;
 }
 
 #avatar {

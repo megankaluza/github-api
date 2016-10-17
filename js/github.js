@@ -20,7 +20,7 @@ Git.prototype.getUsername = function(name) {
     $("#repos").empty();
     console.log(response);
     for (i = 0; i < response.length; i++) {
-      $("#repos").append("<h2><a href='" + response[i].html_url + "' target='_blank'>Repository</a>: <br><span>" + response[i].name + "</span></h2><p>" + response[i].description + "</p>");
+      $("#repos").append("<div class='info'<h2><a href='" + response[i].html_url + "' target='_blank'>Repository</a>: <br><span>" + response[i].name + "</span></h2><p>" + response[i].description + "</p></div>");
     };
   }).fail(function(error){
   });
