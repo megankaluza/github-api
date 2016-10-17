@@ -10,6 +10,18 @@ _Uses an API for users to enter a GitHub username into a form that allows the us
 
 ## Setup/Installation Requirements
 
+* _npm install_
+* _npm init_
+* _npm install gulp --save-dev_
+* _npm install browserify --save-dev_
+* _npm install vinyl-source-stream --save-dev_
+* _npm install gulp-concat --save-dev_
+* _npm install uglify --save-dev_
+* _npm install gulp-util --save-dev_
+* _npm install del --save-dev_
+* _npm install jshint --save-dev_
+* _npm install gulp-jshint --save-dev_
+* _gem install sass_          
 * _Clone this repository_
     * _To clone using Git, use the following terminal command:_
     _https://github.com/megankaluza/github_api.git
@@ -21,13 +33,16 @@ _No known bugs at this time_
 
 ## Support and contact details
 
+_megan.kaluza@gmail.com_
+
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_jQuery_
-_JavaScript_
+* _HTML_
+* _CSS_
+* _Sass_
+* _Bootstrap_
+* _jQuery_
+* _JavaScript_
 
 ### License
 
