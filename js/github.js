@@ -1,9 +1,5 @@
 var apiKey = require('./../.env').apiKey;
 
-Git = function(name) {
-  this.name = name;
-}
-
 function Git(){
 }
 
